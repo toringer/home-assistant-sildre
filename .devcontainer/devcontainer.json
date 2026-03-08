@@ -3,7 +3,7 @@
 // Depending on setup, "remoteUser": "vscode", might be preferred to add.
 {
 	"name": "Sildre",
-	"image": "mcr.microsoft.com/devcontainers/python:3.13",
+	"image": "mcr.microsoft.com/devcontainers/python:3.14",
 	"postCreateCommand": "python3 -m pip install --requirement requirements.txt",
 	"forwardPorts": [
 		8123
